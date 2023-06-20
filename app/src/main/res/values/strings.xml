@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">SharedList</string>
+    <string name="signOut">Sair</string>
+    <string name="titleText">Titulo</string>
+    <string name="save">Salvar</string>
+    <string name="add_task">Adicionar Tarefa</string>
+    <string name="task_list">Lista de Tarefas</string>
+    <string name="refresh_tasks">Atualizar Tarefas</string>
+    <string name="task_info">Tarefa</string>
+    <string name="descriptionText">Descrição</string>
+    <string name="dateFormatInfo">dd/mm/yyyy</string>
+    <string name="expectedDateText">Data prevista</string>
+    <string name="createdDateText">Data de criação</string>
+    <string name="userEt">Usuario</string>
+    <string name="userText">Usuário</string>
+    <string name="userFinishText">Usuário que finalizou</string>
 </resources>

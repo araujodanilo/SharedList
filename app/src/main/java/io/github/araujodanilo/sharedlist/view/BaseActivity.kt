@@ -7,6 +7,8 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import io.github.araujodanilo.sharedlist.R
 
 sealed class BaseActivity: AppCompatActivity() {
+    protected val EXTRA_TASK = "Task"
+    protected val EXTRA_VIEW_TASK = "ViewTask"
 
     protected val googleSignInOptions: GoogleSignInOptions by lazy {
         GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)

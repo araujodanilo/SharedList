@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".view.TaskActivity">
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titleText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/titleEt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/titleText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/descriptionTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descriptionText"
+        app:layout_constraintTop_toBottomOf="@+id/titleEt"
+        />
+
+    <EditText
+        android:id="@+id/descriptionEt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType=""
+        android:hint="@string/descriptionText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTv"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/expectedDateTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/expectedDateText"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionEt"
+        />
+
+    <EditText
+        android:id="@+id/expectedDateEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:ems="10"
+        android:hint="@string/dateFormatInfo"
+        app:layout_constraintTop_toBottomOf="@+id/expectedDateTv"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/createdDateTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/createdDateText"
+        app:layout_constraintTop_toBottomOf="@+id/expectedDateEt"
+        />
+
+    <EditText
+        android:id="@+id/createdDateEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dateFormatInfo"
+        android:inputType="date"
+        app:layout_constraintTop_toBottomOf="@+id/createdDateTv"
+        tools:ignore="MissingConstraints"
+        android:visibility="visible"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/userTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/userText"
+        app:layout_constraintTop_toBottomOf="@+id/createdDateEt"
+        />
+
+    <EditText
+        android:id="@+id/userEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/userEt"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/userTv"
+        android:visibility="visible"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/userFinishTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/userFinishText"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/userEt"
+        />
+
+    <EditText
+        android:id="@+id/userFinishEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/userEt"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/userFinishTv"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/saveBt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userFinishEt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
