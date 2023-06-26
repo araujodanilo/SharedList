@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "232185076582",
+    "firebase_url": "https://sharedlistpdm-default-rtdb.firebaseio.com",
+    "project_id": "sharedlistpdm",
+    "storage_bucket": "sharedlistpdm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232185076582:android:07d5e9c15a957a4182c6a7",
+        "android_client_info": {
+          "package_name": "io.github.araujodanilo.sharedlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232185076582-ddjcet8r4tg6m5sv4b6oopvro6fsan6d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.araujodanilo.sharedlist",
+            "certificate_hash": "2e4ba6a2826777fa8ccd15464c360b02fdfcb7c3"
+          }
+        },
+        {
+          "client_id": "232185076582-lcs7sr44a2m22ehl0dvkfui0354pr89c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7FJS45Askg3Bodutc8gkJmOdhU8oCJ1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232185076582-lcs7sr44a2m22ehl0dvkfui0354pr89c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
